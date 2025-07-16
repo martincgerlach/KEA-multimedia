@@ -1,4 +1,6 @@
 /* Grundstil */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,12 +19,17 @@ section {
     padding: 2rem;
   border-bottom: 1px solid #333;
 }
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
 
 
 h2 {
     color: #222222;
-    
+  font-family: "Times New Roman", Times, serif;
 }
+
+
 
 ul {
     list-style-type: square;
@@ -47,23 +54,40 @@ img {
 }
 
 
+/* Download-sektion */
+.download-section {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.download-heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.download-note {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
 .download-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3f3fff;
+  background-color: #3b5bff;
   color: white;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  transition: background-color 0.2s ease;
+  display: inline-block;
 }
 
 .download-button:hover {
-  background-color: #2a2acc;
+  background-color: #2e46c0;
 }
+
 
 @media screen and (max-width: 600px) {
   .download-button {
